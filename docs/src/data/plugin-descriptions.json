@@ -1,0 +1,717 @@
+{
+  "@bellaos-plugins/adapter-mongodb": {
+    "custom_preview": "/bella/logos/mongodb.png",
+    "description": "Database adapter for MongoDB enabling document storage with query capabilities."
+  },
+  "@bellaos-plugins/adapter-pglite": {
+    "custom_preview": "/bella/logos/pglite.png",
+    "description": "Lightweight PostgreSQL adapter for embedded database applications."
+  },
+  "@bellaos-plugins/adapter-postgres": {
+    "custom_preview": "/bella/logos/postgres.jpg",
+    "description": "Database adapter for PostgreSQL with full relational database capabilities."
+  },
+  "@bellaos-plugins/adapter-qdrant": {
+    "custom_preview": "/bella/logos/qdrant.png",
+    "description": "Vector database adapter for Qdrant with similarity search capabilities."
+  },
+  "@bellaos-plugins/adapter-sqlite": {
+    "custom_preview": "/bella/logos/sqlite.png",
+    "description": "File-based SQL database adapter for lightweight local storage."
+  },
+  "@bellaos-plugins/adapter-sqljs": {
+    "custom_preview": "/bella/logos/sqljs.png",
+    "description": "In-memory SQL database adapter for browser-based applications."
+  },
+  "@bellaos-plugins/adapter-supabase": {
+    "custom_preview": "/bella/logos/supabase.jpg",
+    "description": "Database adapter for Supabase with PostgreSQL and realtime capabilities."
+  },
+  "@bellaos-plugins/plugin-cache-redis": {
+    "custom_preview": "/bella/logos/redis.jpg",
+    "description": "Unmaintained cache plugin that originally lived in @bellaos/core and needs a maintainer."
+  },
+  "@bellaos-plugins/client-alexa": {
+    "custom_preview": "/bella/logos/alexa.png",
+    "description": "Provides integration with Amazon Alexa devices for voice-controlled agent interactions."
+  },
+  "@bellaos-plugins/client-auto": {
+    "custom_preview": "/bella/logos/auto.jpg",
+    "description": "Auto-detection client for determining optimal communication channels."
+  },
+  "@bellaos-plugins/client-deva": {
+    "custom_preview": "/bella/logos/deva.jpg",
+    "description": "Enables communication with Deva AI systems for advanced conversational capabilities."
+  },
+  "@bellaos-plugins/client-direct": {
+    "custom_preview": "/bella/logos/direct.png",
+    "description": "Deprecated plugin that now lives in @bellaos/core."
+  },
+  "@bellaos-plugins/client-discord": {
+    "custom_preview": "/bella/logos/discord.jpg",
+    "description": "Discord integration client with messaging and community interaction capabilities.",
+    "featured": true
+  },
+  "@bellaos-plugins/client-bella-home": {
+    "custom_preview":"/bella/logos/home-assistant.png",
+    "description": "Provides integration with Bella Home environment for home automation and intelligent assistant features."
+  },
+  "@bellaos-plugins/client-farcaster": {
+    "custom_preview": "/bella/logos/farcaster.jpg",
+    "description": "Client for Farcaster decentralized social media protocol."
+  },
+  "@bellaos-plugins/client-github": {
+    "custom_preview": "/bella/logos/github.png",
+    "description": "GitHub client for repository management and code integration.",
+    "featured": true
+  },
+  "@bellaos-plugins/client-instagram": {
+    "custom_preview": "/bella/logos/instagram.jpg",
+    "description": "Enables Instagram integration with support for media posting, comment handling, and interaction management."
+  },
+  "@bellaos-plugins/client-lens": {
+    "custom_preview": "/bella/logos/lens.jpg",
+    "description": "Client for Lens Protocol decentralized social networking."
+  },
+  "@bellaos-plugins/client-simsai": {
+    "custom_preview": "/bella/logos/simsAI.jpg",
+    "description": "Deprecated plugin that needs a maintainer."
+  },
+  "@bellaos-plugins/client-slack": {
+    "custom_preview": "/bella/logos/slack.jpg",
+    "description": "Slack integration client with messaging and workspace collaboration features."
+  },
+  "@bellaos-plugins/client-tako": {
+    "custom_preview": "/bella/logos/tako.png",
+    "description": "Client for the Tako protocol enabling cross-platform social engagement."
+  },
+  "@bellaos-plugins/client-telegram": {
+    "custom_preview": "/bella/logos/telegram.jpg",
+    "description": "Telegram messaging client with bot and channel integration capabilities.",
+    "featured": true
+  },
+  "@bellaos-plugins/client-telegram-account": {
+    "custom_preview": "/bella/logos/telegram.jpg",
+    "description": "Provides advanced Telegram account management capabilities beyond basic bot functionality."
+  },
+  "@bellaos-plugins/client-twitter": {
+    "custom_preview": "/bella/logos/x.jpg",
+    "description": "Twitter/X client for posting and monitoring social media activity.",
+    "featured": true
+  },
+  "@bellaos-plugins/client-xmtp": {
+    "custom_preview": "/bella/logos/xmtp.jpg",
+    "description": "Enables secure, decentralized, and end-to-end encrypted messaging through the XMTP protocol."
+  },
+  "@bellaos-plugins/plugin-0g": {
+    "custom_preview": "/bella/logos/0g.jpg",
+    "description": "Provides decentralized file storage capabilities using the Zero Gravity (0G) protocol."
+  },
+  "@bellaos-plugins/plugin-0x": {
+    "custom_preview": "/bella/logos/0x.jpg",
+    "description": "Enables token swaps through 0x Protocol across multiple EVM blockchains with optimized routing and liquidity aggregation."
+  },
+  "@bellaos-plugins/plugin-3d-generation": {
+    "custom_preview": "/bella/logos/falai.png",
+    "description": "Generates 3D models from text descriptions using FAL.ai's API services."
+  },
+  "@bellaos-plugins/plugin-ATTPs": {
+    "custom_preview": "/bella/logos/appro.jpg",
+    "description": "Enables verification of agent activities using proof generation and validation."
+  },
+  "@bellaos-plugins/plugin-abstract": {
+    "custom_preview": "/bella/logos/abstract.jpg",
+    "description": "Enables token transfers and operations on the Abstract blockchain network."
+  },
+  "@bellaos-plugins/plugin-agentkit": {
+    "custom_preview": "/bella/logos/agentkitCDB.jpg",
+    "description": "Integrates CDP AgentKit tools for NFT and token management on various blockchain networks."
+  },
+  "@bellaos-plugins/plugin-akash": {
+    "custom_preview": "/bella/logos/akash.jpg",
+    "description": "Manages deployments and cloud compute operations on the Akash Network."
+  },
+  "@bellaos-plugins/plugin-allora": {
+    "custom_preview": "/bella/logos/allora.jpg",
+    "description": "Provides real-time AI inferences from the Allora Network for market predictions and analysis."
+  },
+  "@bellaos-plugins/plugin-ankr": {
+    "custom_preview": "/bella/logos/ankr.jpg",
+    "description": "Provides blockchain data query interfaces for wallet information, NFT operations, and token analytics."
+  },
+  "@bellaos-plugins/plugin-anyone": {
+    "custom_preview": "/bella/logos/anyone.jpg",
+    "description": "Enables SOCKS proxy configuration for the Anyone protocol proxy services."
+  },
+  "@bellaos-plugins/plugin-aptos": {
+    "custom_preview": "/bella/logos/aptos.jpg",
+    "description": "Handles token transfers and wallet management on the Aptos blockchain."
+  },
+  "@bellaos-plugins/plugin-arbitrage": {
+    "custom_preview": "/bella/logos/arbitage.png",
+    "description": "Identifies and executes cryptocurrency arbitrage opportunities across multiple exchanges."
+  },
+  "@bellaos-plugins/plugin-arthera": {
+    "custom_preview": "/bella/logos/arthera.jpg",
+    "description": "Facilitates transactions and token operations on the Arthera network."
+  },
+  "@bellaos-plugins/plugin-asterai": {
+    "custom_preview": "/bella/logos/asterai.jpg",
+    "description": "Integrates with asterai.io plugins and agents for enhanced AI capabilities."
+  },
+  "@bellaos-plugins/plugin-autonome": {
+    "custom_preview": "/bella/logos/autonome.jpg",
+    "description": "Launches and manages new Bella agents through the Autonome platform."
+  },
+  "@bellaos-plugins/plugin-avail": {
+    "custom_preview": "/bella/logos/avail.png",
+    "description": "Interacts with Avail DA network for data availability and token transfers."
+  },
+  "@bellaos-plugins/plugin-avalanche": {
+    "custom_preview": "/bella/logos/avalanche.jpg",
+    "description": "Enables DeFi operations and token management on the Avalanche blockchain."
+  },
+  "@bellaos-plugins/plugin-aws-s3": {
+    "custom_preview": "/bella/logos/AWS.jpg",
+    "description": "Provides AWS S3 integration for cloud-based file operations and storage management."
+  },
+  "@bellaos-plugins/plugin-b2": {
+    "custom_preview": "/bella/logos/B2network.jpg",
+    "description": "Enables token transfers on the B2-Network blockchain with support for B2-BTC and ERC20 tokens."
+  },
+  "@bellaos-plugins/plugin-binance": {
+    "custom_preview": "/bella/logos/binance.jpg",
+    "description": "Provides cryptocurrency trading and price checking capabilities through Binance's API."
+  },
+  "@bellaos-plugins/plugin-birdeye": {
+    "custom_preview": "/bella/logos/birdeye.jpg",
+    "description": "Offers DeFi and token analytics through Birdeye's API with real-time blockchain data across multiple networks."
+  },
+  "@bellaos-plugins/plugin-bittensor": {
+    "custom_preview": "/bella/logos/bittensor.jpg",
+    "description": "Integrates BitMind's API for accessing AI services on the Bittensor network, especially deepfake detection."
+  },
+  "@bellaos-plugins/plugin-bnb": {
+    "custom_preview": "/bella/logos/BNBchain.jpg",
+    "description": "Enables interactions with BNB Chain ecosystem including BNB Smart Chain, opBNB, and BNB Greenfield networks."
+  },
+  "@bellaos-plugins/plugin-bootstrap": {
+    "custom_preview": "/bella/logos/bootstrap.jpg",
+    "description": "Provides core functionality for BellaOS agents including conversation management and fact tracking."
+  },
+  "@bellaos-plugins/plugin-browser": {
+    "custom_preview": "/bella/logos/browser.playwright.jpg",
+    "description": "Provides web scraping and browser automation using Playwright with support for multiple browsers and interactions."
+  },
+  "@bellaos-plugins/plugin-ccxt": {
+    "custom_preview": "/bella/logos/ccxt.png",
+    "description": "Enables cryptocurrency trading and arbitrage across multiple exchanges using CCXT."
+  },
+  "@bellaos-plugins/plugin-chainbase": {
+    "custom_preview": "/bella/logos/chainbase.jpg",
+    "description": "Bridges on-chain data with AI agents, enabling natural language interactions with blockchain data across networks."
+  },
+  "@bellaos-plugins/plugin-coinbase": {
+    "custom_preview": "/bella/logos/coinbase.png",
+    "description": "Provides comprehensive integration with Coinbase's various APIs and trading services."
+  },
+  "@bellaos-plugins/plugin-coingecko": {
+    "custom_preview": "/bella/logos/coingecko.jpg",
+    "description": "Fetches cryptocurrency price data and market information from CoinGecko's API."
+  },
+  "@bellaos-plugins/plugin-coinmarketcap": {
+    "custom_preview": "/bella/logos/coinmarketcap.jpg",
+    "description": "Enables cryptocurrency price checking using CoinMarketCap's API services."
+  },
+  "@bellaos-plugins/plugin-compass": {
+    "custom_preview": "/bella/logos/compass.jpg",
+    "description": "Integrates with Compass API for executing operations on DeFi protocols."
+  },
+  "@bellaos-plugins/plugin-conflux": {
+    "custom_preview": "/bella/logos/conflux.png",
+    "description": "Manages token transfers and interactions on the Conflux blockchain network."
+  },
+  "@bellaos-plugins/plugin-cosmos": {
+    "custom_preview": "/bella/logos/cosmos.jpg",
+    "description": "Handles token management and transfers using Cosmos-compatible blockchains."
+  },
+  "@bellaos-plugins/plugin-cronos": {
+    "custom_preview": "/bella/logos/cronos.jpg",
+    "description": "Extends EVM plugin functionality for Cronos blockchain with native CRO token support and wallet operations."
+  },
+  "@bellaos-plugins/plugin-cronoszkevm": {
+    "custom_preview": "/bella/logos/cronos.png",
+    "description": "Enables token transfers and interactions on the Cronos zkEVM network."
+  },
+  "@bellaos-plugins/plugin-d.a.t.a": {
+    "custom_preview": "/bella/logos/carv.jpg",
+    "description": "Processes and analyzes data from various sources with authentication and trust scoring."
+  },
+  "@bellaos-plugins/plugin-dcap": {
+    "custom_preview": "/bella/logos/dcap.png",
+    "description": "Provides Intel Data Center Attestation Primitives for secure cloud environments."
+  },
+  "@bellaos-plugins/plugin-depin": {
+    "custom_preview": "/bella/logos/depin.jpg",
+    "description": "Connects AI agents to physical infrastructure through Decentralized Physical Infrastructure Networks."
+  },
+  "@bellaos-plugins/plugin-desk-exchange": {
+    "custom_preview": "/bella/logos/desk.jpg",
+    "description": "Integrates with DESK Exchange for perpetual futures trading with support for market and limit orders."
+  },
+  "@bellaos-plugins/plugin-devin": {
+    "custom_preview": "/bella/logos/devin.png",
+    "description": "Provides integration with Devin API for automated engineering assistance and session management."
+  },
+  "@bellaos-plugins/plugin-dexscreener": {
+    "custom_preview": "/bella/logos/dexscreener.jpg",
+    "description": "Accesses DexScreener's token data for price information and market trends across multiple blockchains."
+  },
+  "@bellaos-plugins/plugin-di": {
+    "custom_preview": "/bella/logos/di-logo.jpg",
+    "description": "Provides dependency injection system for Bella plugins."
+  },
+  "@bellaos-plugins/plugin-dkg": {
+    "custom_preview": "/bella/logos/OriginTrail.jpg",
+    "description": "Enables integration with OriginTrail Decentralized Knowledge Graph for enhanced search capabilities."
+  },
+  "@bellaos-plugins/plugin-echochambers": {
+    "custom_preview": "/bella/logos/echochambers.png",
+    "description": "Enables chat room interactions with dynamic conversation handling and monitoring."
+  },
+  "@bellaos-plugins/plugin-edwin": {
+    "custom_preview": "/bella/logos/edwin.jpg",
+    "description": "Enables interaction with Edwin tools for DeFi operations."
+  },
+  "@bellaos-plugins/plugin-email": {
+    "custom_preview": "/bella/logos/email.png",
+    "description": "Implements email client functionality for sending and receiving emails through SMTP/IMAP services."
+  },
+  "@bellaos-plugins/plugin-email-automation": {
+    "custom_preview": "/bella/logos/email.jpg",
+    "description": "Intelligently detects email-worthy conversations and handles generation/delivery with AI-powered content formatting."
+  },
+  "@bellaos-plugins/plugin-ethstorage": {
+    "custom_preview": "/bella/logos/ETHstorage.jpg",
+    "description": "Enables interaction with EthStorage decentralized storage network for data submission and token transfers."
+  },
+  "@bellaos-plugins/plugin-evm": {
+    "custom_preview": "/bella/logos/evm.png",
+    "description": "Provides comprehensive functionality for interacting with EVM-compatible chains.",
+    "featured": true
+  },
+  "@bellaos-plugins/plugin-ferePro": {
+    "custom_preview": "/bella/logos/ferepro.png",
+    "description": "Enables WebSocket communication with FerePro API for AI-driven market insights."
+  },
+  "@bellaos-plugins/plugin-firecrawl": {
+    "custom_preview": "/bella/logos/firecrawl.jpg",
+    "description": "Provides web scraping and crawling capabilities through the Firecrawl API."
+  },
+  "@bellaos-plugins/plugin-flow": {
+    "custom_preview": "/bella/logos/flowchain.png",
+    "description": "Manages Flow blockchain interactions including token transfers and smart contracts."
+  },
+  "@bellaos-plugins/plugin-flow-advanced": {
+    "custom_preview": "/bella/logos/flowchain.png",
+    "description": "The advanced Bella plugin for Flow Blockchain"
+  },
+  "@bellaos-plugins/plugin-football": {
+    "custom_preview": "/bella/logos/footballDATA.jpg",
+    "description": "Provides live football match data and league standings information through the Football-Data.org API."
+  },
+  "@bellaos-plugins/plugin-form": {
+    "custom_preview": "/bella/logos/form.jpg",
+    "description": "Integrates Form chain capabilities for curves-based token economics with ERC20 conversion and management."
+  },
+  "@bellaos-plugins/plugin-fuel": {
+    "custom_preview": "/bella/logos/fuel.jpg",
+    "description": "Enables ETH transfers and interactions on the Fuel Ignition network."
+  },
+  "@bellaos-plugins/plugin-gelato": {
+    "custom_preview": "/bella/logos/gelato.jpg",
+    "description": "Enables smart contract interactions via Gelato Relay supporting both ERC2771 and non-ERC2771 calls on EVM chains."
+  },
+  "@bellaos-plugins/plugin-genlayer": {
+    "custom_preview": "/bella/logos/genlayer.jpg",
+    "description": "Facilitates contract deployment and interactions on the GenLayer protocol."
+  },
+  "@bellaos-plugins/plugin-gigbot": {
+    "custom_preview": "/bella/logos/gigbot.png",
+    "description": "AI-powered freelance work management and automation toolkit."
+  },
+  "@bellaos-plugins/plugin-giphy": {
+    "custom_preview": "/bella/logos/giphy.jpg",
+    "description": "Enables sending GIFs in response to user messages using the Giphy API."
+  },
+  "@bellaos-plugins/plugin-gitbook": {
+    "custom_preview": "/bella/logos/gitbook.jpg",
+    "description": "Enables querying and retrieving information from GitBook documentation."
+  },
+  "@bellaos-plugins/plugin-gitcoin-passport": {
+    "custom_preview": "/bella/logos/gitcoin.passport.jpg",
+    "description": "Interacts with Gitcoin Passport API for verifying and managing digital identity credentials."
+  },
+  "@bellaos-plugins/plugin-goat": {
+    "custom_preview": "/bella/logos/goat.jpg",
+    "description": "Integrates blockchain capabilities through the GOAT (Great Onchain Agent Toolkit) framework."
+  },
+  "@bellaos-plugins/plugin-goplus": {
+    "custom_preview": "/bella/logos/goplus.jpg",
+    "description": "Enables on-chain security checks through the GoPlus API integration."
+  },
+  "@bellaos-plugins/plugin-grix": {
+    "custom_preview": "/bella/logos/grix.png",
+    "description": "Enables DeFi options data fetching and price analysis through Grix Finance API."
+  },
+  "@bellaos-plugins/plugin-holdstation": {
+    "custom_preview": "/bella/logos/holdstation.jpg",
+    "description": "Enables token swapping on Holdstation DEX with support for ZKsync Era and upcoming Berachain."
+  },
+  "@bellaos-plugins/plugin-hyperbolic": {
+    "custom_preview": "/bella/logos/hyperbolic.jpg",
+    "description": "Manages GPU instances on the Hyperbolic platform with capabilities for renting and monitoring resources."
+  },
+  "@bellaos-plugins/plugin-hyperliquid": {
+    "custom_preview": "/bella/logos/hyperliquid.png",
+    "description": "Provides spot trading capabilities on the Hyperliquid DEX."
+  },
+  "@bellaos-plugins/plugin-icp": {
+    "custom_preview": "/bella/logos/ICP.jpg",
+    "description": "Enables interaction with Internet Computer Protocol for token and smart contract operations."
+  },
+  "@bellaos-plugins/plugin-image": {
+    "custom_preview": "/bella/logos/imagegen.jpg",
+    "description": "Processes and analyzes images to generate descriptions with support for multiple vision model providers."
+  },
+  "@bellaos-plugins/plugin-image-generation": {
+    "custom_preview": "/bella/logos/imagegen.jpg",
+    "description": "Generates and manages images with storage integration and optimization features."
+  },
+  "@bellaos-plugins/plugin-imgflip": {
+    "custom_preview": "/bella/logos/imgFlip.jpg",
+    "description": "Generates memes using the imgflip.com API based on user messages."
+  },
+  "@bellaos-plugins/plugin-initia": {
+    "custom_preview": "/bella/logos/initia.jpg",
+    "description": "Enables token transfers on the Initia blockchain with support for INIT token transactions."
+  },
+  "@bellaos-plugins/plugin-injective": {
+    "custom_preview": "/bella/logos/injective.jpg",
+    "description": "Provides comprehensive interaction with the Injective blockchain through module-based action creation."
+  },
+  "@bellaos-plugins/plugin-intiface": {
+    "custom_preview": "/bella/logos/intiface.png",
+    "description": "Controls intimate hardware devices through the Buttplug.io protocol."
+  },
+  "@bellaos-plugins/plugin-iq6900": {
+    "custom_preview": "/bella/logos/IQ6900.jpg",
+    "description": "Provides blockchain inscription functionality through IQ6900's Code-In standard for permanent agent storage."
+  },
+  "@bellaos-plugins/plugin-irys": {
+    "custom_preview": "/bella/logos/irys.jpg",
+    "description": "Enables decentralized data storage and retrieval using the Irys datachain platform."
+  },
+  "@bellaos-plugins/plugin-isaacx": {
+    "custom_preview": "/bella/logos/isaac.jpg",
+    "description": "Advanced AI reasoning and cognitive modeling plugin."
+  },
+  "@bellaos-plugins/plugin-lens-network": {
+    "custom_preview": "/bella/logos/lens.jpg",
+    "description": "Integrates with Lens protocol for both native and ERC20 tokens."
+  },
+  "@bellaos-plugins/plugin-letzai": {
+    "custom_preview": "/bella/logos/letzai.jpg",
+    "description": "Enables image generation using LetzAI's API and models."
+  },
+  "@bellaos-plugins/plugin-lightlink": {
+    "custom_preview": "/bella/logos/lightlink.jpg",
+    "description": "Enables Ethereum layer 2 operations on the Lightlink blockchain network."
+  },
+  "@bellaos-plugins/plugin-lightning": {
+    "custom_preview": "/bella/logos/lightning.png",
+    "description": "Enables Lightning Network integration for creating invoices and making off-chain Bitcoin payments."
+  },
+  "@bellaos-plugins/plugin-lit": {
+    "custom_preview": "/bella/logos/LitProtocol.jpg",
+    "description": "Integrates Lit Protocol for secure and decentralized access control and cryptographic operations."
+  },
+  "@bellaos-plugins/plugin-llama": {
+    "custom_preview": "/bella/logos/meta-llama.jpg",
+    "description": "Provides local LLM capabilities using LLaMA models with CPU and GPU support for efficient text generation."
+  },
+  "@bellaos-plugins/plugin-massa": {
+    "custom_preview": "/bella/logos/massa.jpg",
+    "description": "Enables interactions with the Massa blockchain ecosystem."
+  },
+  "@bellaos-plugins/plugin-merkle": {
+    "custom_preview": "/bella/logos/merkle.jpg",
+    "description": "Integrates MerkleTrade platform for trading operations with API-based price tracking and order management."
+  },
+  "@bellaos-plugins/plugin-messari-ai-toolkit": {
+    "custom_preview": "/bella/logos/messari.jpg",
+    "description": "Provides crypto market research capabilities using Messari's AI Toolkit."
+  },
+  "@bellaos-plugins/plugin-mina": {
+    "custom_preview": "/bella/logos/Mina.jpg",
+    "description": "Enables Mina blockchain interactions for token transfers, wallet management, and balance queries."
+  },
+  "@bellaos-plugins/plugin-mind-network": {
+    "custom_preview": "/bella/logos/MindNetwork.jpg",
+    "description": "Integrates with Mind Network Hubs for secure, privacy-preserving voting using Fully Homomorphic Encryption."
+  },
+  "@bellaos-plugins/plugin-moralis": {
+    "custom_preview": "/bella/logos/moralis.jpg",
+    "description": "Fetches real-time DeFi data including trading pairs, statistics, and price history through Moralis APIs."
+  },
+  "@bellaos-plugins/plugin-movement": {
+    "custom_preview": "/bella/logos/movement.jpg",
+    "description": "Enables Movement Network blockchain functionality for token operations."
+  },
+  "@bellaos-plugins/plugin-multichain": {
+    "custom_preview": "/bella/logos/nearai.png",
+    "description": "Cross-chain interaction capabilities for multiple blockchain networks."
+  },
+  "@bellaos-plugins/plugin-multiversx": {
+    "custom_preview": "/bella/logos/multiversx.jpg",
+    "description": "Manages token operations and transfers on the MultiversX blockchain."
+  },
+  "@bellaos-plugins/plugin-near": {
+    "custom_preview": "/bella/logos/NEAR.jpg",
+    "description": "Enables token management and transfers on the NEAR Protocol blockchain."
+  },
+  "@bellaos-plugins/plugin-news": {
+    "custom_preview": "/bella/logos/NewsAPI.jpg",
+    "description": "Fetches and handles real-time news data through NewsAPI integration with search and summary capabilities."
+  },
+  "@bellaos-plugins/plugin-nft-collections": {
+    "custom_preview": "/bella/logos/nftgen.png",
+    "description": "Integrates NFT data services for comprehensive market analytics and trading with support for 420+ verified collections."
+  },
+  "@bellaos-plugins/plugin-nft-generation": {
+    "custom_preview": "/bella/logos/nftgen.png",
+    "description": "Creates NFT collections with AI-generated artwork on the Solana blockchain."
+  },
+  "@bellaos-plugins/plugin-nkn": {
+    "custom_preview": "/bella/logos/nkn.jpg",
+    "description": "Enables communication between multiple AI agents using the NKN protocol for decentralized messaging."
+  },
+  "@bellaos-plugins/plugin-node": {
+    "custom_preview": "/bella/logos/nodejs.jpg",
+    "description": "Provides core Node.js services for file operations and media processing."
+  },
+  "@bellaos-plugins/plugin-nvidia-nim": {
+    "custom_preview": "/bella/logos/nvidia.jpg",
+    "description": "Integrates NVIDIA's AI foundation models for content analysis including AI image detection and safety checks."
+  },
+  "@bellaos-plugins/plugin-obsidian": {
+    "custom_preview": "/bella/logos/obsidian.jpg",
+    "description": "Enables seamless integration with Obsidian vaults for note management."
+  },
+  "@bellaos-plugins/plugin-okto": {
+    "custom_preview": "/bella/logos/okto.png",
+    "description": "Self-custody wallet operations and transaction management."
+  },
+  "@bellaos-plugins/plugin-okx": {
+    "custom_preview": "/bella/logos/okx.png",
+    "description": "Trading and asset management through OKX exchange API."
+  },
+  "@bellaos-plugins/plugin-omniflix": {
+    "custom_preview": "/bella/logos/omniflix.jpg",
+    "description": "Facilitates interactions with the OmniFlix Network blockchain."
+  },
+  "@bellaos-plugins/plugin-opacity": {
+    "custom_preview": "/bella/logos/opacity.jpg",
+    "description": "Implements verifiable inference results from various AI model providers."
+  },
+  "@bellaos-plugins/plugin-open-weather": {
+    "custom_preview": "/bella/logos/openweather.jpg",
+    "description": "Fetches weather data using the OpenWeather API."
+  },
+  "@bellaos-plugins/plugin-openai": {
+    "custom_preview": "/bella/logos/openAI.jpg",
+    "description": "Integrates OpenAI's GPT models for automated text generation with customizable prompts."
+  },
+  "@bellaos-plugins/plugin-para": {
+    "custom_preview": "/bella/logos/para.png",
+    "description": "NFT and digital collectible management platform integration."
+  },
+  "@bellaos-plugins/plugin-pdf": {
+    "custom_preview": "/bella/logos/PDF.jpg",
+    "description": "Provides PDF text extraction and processing capabilities for document analysis."
+  },
+  "@bellaos-plugins/plugin-primus": {
+    "custom_preview": "/bella/logos/primus.png",
+    "description": "Verifies agent activities using Primus' zkTLS protocol."
+  },
+  "@bellaos-plugins/plugin-pyth-data": {
+    "custom_preview": "/bella/logos/pyth.jpg",
+    "description": "Integrates with Pyth Network for real-time price feeds and data streams across multiple asset classes."
+  },
+  "@bellaos-plugins/plugin-quai": {
+    "custom_preview": "/bella/logos/quai.jpg",
+    "description": "Enables token transfers and blockchain interactions on Quai Network."
+  },
+  "@bellaos-plugins/plugin-quick-intel": {
+    "custom_preview": "/bella/logos/quickintel.jpg",
+    "description": "Performs token security audits and market analysis with support for multiple chains and address formats."
+  },
+  "@bellaos-plugins/plugin-rabbi-trader": {
+    "custom_preview": "/bella/logos/rabbitrader.jpg",
+    "description": "Provides automated cryptocurrency trading on Solana with trust scoring."
+  },
+  "@bellaos-plugins/plugin-router-nitro": {
+    "custom_preview": "/bella/logos/router.jpg",
+    "description": "Enables cross-chain token transfers using Router Nitro bridge with support for multiple blockchains."
+  },
+  "@bellaos-plugins/plugin-sei": {
+    "custom_preview": "/bella/logos/sei.jpg",
+    "description": "Enables token transfers and operations on the Sei blockchain network."
+  },
+  "@bellaos-plugins/plugin-sgx": {
+    "custom_preview": "/bella/logos/intelsgx.png",
+    "description": "Provides Intel SGX attestation capabilities for secure execution."
+  },
+  "@bellaos-plugins/plugin-solana": {
+    "custom_preview": "/bella/logos/solana.jpg",
+    "description": "Enables comprehensive DeFi operations on the Solana blockchain."
+  },
+  "@bellaos-plugins/plugin-solana-agent-kit": {
+    "custom_preview": "/bella/logos/sendai.png",
+    "description": "Provides token operations and NFT functionality on Solana.",
+    "featured": true
+  },
+  "@bellaos-plugins/plugin-solana-agentkit": {
+    "custom_preview": "/bella/logos/solanaV2.jpg",
+    "description": "Enables interaction with the Solana blockchain through AgentKit for wallet and transaction management."
+  },
+  "@bellaos-plugins/plugin-solana-v2": {
+    "custom_preview": "/bella/logos/solanaV2.jpg",
+    "description": "Leverages @solana/web3.js v2 for modern, efficient Solana integrations with liquidity position management."
+  },
+  "@bellaos-plugins/plugin-speech-tts": {
+    "custom_preview": "/bella/logos/TTSelevenlabs.jpg",
+    "description": "Provides text-to-speech transcription services using OpenAI and ElevenLabs technologies."
+  },
+  "@bellaos-plugins/plugin-spheron": {
+    "custom_preview": "/bella/logos/spheron.jpg",
+    "description": "Manages deployments and operations using the Spheron Protocol."
+  },
+  "@bellaos-plugins/plugin-squid-router": {
+    "custom_preview": "/bella/logos/squid.jpg",
+    "description": "Enables cross-chain token swaps between blockchains using the Squid Router protocol."
+  },
+  "@bellaos-plugins/plugin-stargaze": {
+    "custom_preview": "/bella/logos/stargaze.png",
+    "description": "Fetches NFT data from Stargaze collections."
+  },
+  "@bellaos-plugins/plugin-starknet": {
+    "custom_preview": "/bella/logos/starknet.png",
+    "description": "Enables token and DeFi operations on the Starknet blockchain."
+  },
+  "@bellaos-plugins/plugin-story": {
+    "custom_preview": "/bella/logos/story.jpg",
+    "description": "Generates and manages interactive storytelling experiences with branching narratives.",
+    "featured": true
+  },
+  "@bellaos-plugins/plugin-sui": {
+    "custom_preview": "/bella/logos/sui.jpg",
+    "description": "Manages token transfers and wallet operations on the Sui blockchain."
+  },
+  "@bellaos-plugins/plugin-suno": {
+    "custom_preview": "/bella/logos/suno.jpg",
+    "description": "Integrates Suno AI's music generation for creating custom music from text prompts with detailed controls."
+  },
+  "@bellaos-plugins/plugin-tee": {
+    "custom_preview": "/bella/logos/phalatee.jpg",
+    "description": "Handles Trusted Execution Environment operations and key management."
+  },
+  "@bellaos-plugins/plugin-tee-log": {
+    "custom_preview": "/bella/logos/tee.png",
+    "description": "Provides secure logging capabilities within Trusted Execution Environments."
+  },
+  "@bellaos-plugins/plugin-tee-marlin": {
+    "custom_preview": "/bella/logos/marlin.jpg",
+    "description": "Enables TEE verification through Marlin Oyster platform."
+  },
+  "@bellaos-plugins/plugin-tee-verifiable-log": {
+    "custom_preview": "/bella/logos/tee.png",
+    "description": "Implements a verifiable logging system within Trusted Execution Environments for secure, auditable records."
+  },
+  "@bellaos-plugins/plugin-thirdweb": {
+    "custom_preview": "/bella/logos/thirdweb.jpg",
+    "description": "Provides access to thirdweb's Nebula AI interface."
+  },
+  "@bellaos-plugins/plugin-ton": {
+    "custom_preview": "/bella/logos/ton.png",
+    "description": "Manages TON blockchain operations and wallet functionality."
+  },
+  "@bellaos-plugins/plugin-trikon": {
+    "custom_preview": "/bella/logos/trikon.jpg",
+    "description": "Provides token transfer functionality for Trikon with wallet management on ZKsync Era blockchain."
+  },
+  "@bellaos-plugins/plugin-trustdb": {
+    "custom_preview": "/bella/logos/trusta.jpg",
+    "description": "Manages trust scores and performance metrics in a secure database for recommender tracking and token analysis."
+  },
+  "@bellaos-plugins/plugin-trustgo": {
+    "custom_preview": "/bella/logos/trusta.jpg",
+    "description": "Enables fetching EVM account information and MEDIA score attestations from TrustGo."
+  },
+  "@bellaos-plugins/plugin-tts": {
+    "custom_preview": "/bella/logos/fal.jpg",
+    "description": "Generates speech from text using FAL.ai's API."
+  },
+  "@bellaos-plugins/plugin-twilio": {
+    "custom_preview": "/bella/logos/twilio.png",
+    "description": "SMS, voice, and communication capabilities through Twilio API."
+  },
+  "@bellaos-plugins/plugin-twitter": {
+    "custom_preview": "/bella/logos/x.jpg",
+    "description": "Enables automated tweet posting with character-aware content generation."
+  },
+  "@bellaos-plugins/plugin-udio": {
+    "custom_preview": "/bella/logos/UDIO.png",
+    "description": "Enables AI-powered music generation with capabilities for creating and extending audio from text prompts."
+  },
+  "@bellaos-plugins/plugin-viction": {
+    "custom_preview": "/bella/logos/viction.jpg",
+    "description": "Services and actions for token operations, trading, and DeFi integrations using Viction."
+  },
+  "@bellaos-plugins/plugin-video": {
+    "custom_preview": "/bella/logos/video.jpg",
+    "description": "Provides comprehensive video processing with download, format handling, and transcription capabilities."
+  },
+  "@bellaos-plugins/plugin-video-generation": {
+    "custom_preview": "/bella/logos/LUMA.jpg",
+    "description": "Generates videos using Luma AI's API services."
+  },
+  "@bellaos-plugins/plugin-web-search": {
+    "custom_preview": "/bella/logos/websearch.jpg",
+    "description": "Provides powerful web search capabilities with customizable API interface."
+  },
+  "@bellaos-plugins/plugin-whatsapp": {
+    "custom_preview": "/bella/logos/whatsapp.png",
+    "description": "Enables WhatsApp messaging through the Cloud API with comprehensive features."
+  },
+  "@bellaos-plugins/plugin-youtube-to-text": {
+    "custom_preview": "/bella/logos/youtube.png",
+    "description": "Converts YouTube videos to text transcripts."
+  },
+  "@bellaos-plugins/plugin-zapper": {
+    "custom_preview": "/bella/logos/zapper.jpg",
+    "description": "Portfolio tracking and DeFi position management across multiple chains."
+  },
+  "@bellaos-plugins/plugin-zerion": {
+    "custom_preview": "/bella/logos/zerion.jpg",
+    "description": "Fetches wallet portfolio and position data using the Zerion API."
+  },
+  "@bellaos-plugins/plugin-zilliqa": {
+    "custom_preview": "/bella/logos/zilliqa.jpg",
+    "description": "Integrates Zilliqa blockchain capabilities through the GOAT framework for wallet and transaction functionality."
+  },
+  "@bellaos-plugins/plugin-zksync-era": {
+    "custom_preview": "/bella/logos/zksync.jpg",
+    "description": "Enables token transfers and operations on the zkSync Era network."
+  }
+}

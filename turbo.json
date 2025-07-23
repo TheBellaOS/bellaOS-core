@@ -1,0 +1,29 @@
+{
+    "$schema": "https://turbo.build/schema.json",
+    "tasks": {
+        "check-types": {
+            "dependsOn": ["build"]
+        },
+        "@bellaos/agent#check-types": {
+            "dependsOn": [
+                "@bellaos/plugin-solana#build",
+                "@bellaos/plugin-direct#build"
+            ]
+        },
+        "build": {
+            "outputs": ["dist/**"],
+            "dependsOn": ["^@bellaos/core#build"]
+        },
+        "@bellaos/client-direct#build": {
+            "outputs": ["dist/**"],
+            "dependsOn": []
+        },
+        "bella-docs#build": {
+            "outputs": ["build/**"]
+        },
+        "dev": {
+            "persistent": true,
+            "cache": true
+        }
+    }
+}

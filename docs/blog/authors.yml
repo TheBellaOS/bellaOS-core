@@ -1,0 +1,17 @@
+team:
+  name: BellaOS Team
+  title: Core Team
+  url: https://github.com/bellaos
+  image_url: https://github.com/bellaos.png
+  socials:
+    twitter: bellaOS
+    github: bellaOS
+
+jin:
+  name: jin
+  title: Contributor
+  url: https://github.com/madjin
+  image_url: https://avatars.githubusercontent.com/u/32600939?v=4
+  socials:
+    twitter: dankvr
+    github: madjin
